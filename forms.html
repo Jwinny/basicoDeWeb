@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <title>Formulários-Showcase</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Página Inicial</a>
+    </header>
+    <br>
+    <section id="formulario">
+        <form action="forms.html">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero" id="genero" value="Masculino">
+            <label for="genero">Feminino</label>
+            <input type="radio" name="genero" id="genero" value="Feminino">
+            <label for="genero">Indiferente</label>
+            <input type="radio" name="genero" id="genero" value="Indiferente" checked>
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" name="dataNascimento" id="dataNascimento">
+
+            <label for="mail">E-mail</label>
+            <input type="email" name="mail" id="mail" placeholder="Digite aqui um e-mail válido">
+
+            <label for="turno">Turno Disponivel</label>
+            <select name="turno" id="turno">
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+            
+            <label for="sobre">Sobre mim</label>
+            <textarea name="sobre" id="sobre" cols="30" rows="10"></textarea>
+
+            <br>
+            <label for="satisfacao">Satisfação</label>
+            <input type="range" name="satisfacao" id="satisfacao">
+            
+            <label for="validacao">Eu confirmo que os dados acima são verdadeiros</label>
+            <input type="checkbox" name="validacao" id="validacao">
+            <br>
+            <button>Enviar Formulário</button>
+        </form>
+    </section>
+</body>
+
+</html>

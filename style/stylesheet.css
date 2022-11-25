@@ -1,0 +1,26 @@
+/* header {
+     background-color: rgb(197, 180, 180); 
+} */
+
+body {
+    padding-left: 1em;
+    padding-top: 0.5em;
+}
+
+nav li {
+    display: inline;
+    padding-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    border-style: solid;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+#formulario *{
+    display: block;
+}
